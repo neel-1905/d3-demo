@@ -1,4 +1,3 @@
-import React from "react";
 import DataJoins from "../components/DataJoins";
 
 const DataJoinsPage = () => {

@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import { select, selectAll } from "d3-selection";
+import { useEffect, useRef } from "react";
+import { selectAll } from "d3-selection";
 
 const Selections = () => {
   const selectionRef = useRef<SVGSVGElement | null>(null);
