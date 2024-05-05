@@ -3,12 +3,14 @@ import Selections from "./pages/Selections";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import DataJoinsPage from "./pages/DataJoinsPage";
+import ScalesPage from "./pages/ScalesPage";
 
 function App() {
   const routes = [
     { element: <Home />, path: "/" },
     { element: <Selections />, path: "/selections" },
     { element: <DataJoinsPage />, path: "/data-joins" },
+    { element: <ScalesPage />, path: "/scales" },
   ];
 
   return (

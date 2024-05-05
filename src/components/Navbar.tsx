@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navLinks = [
-    { name: "Selections", route: "/selections" },
-    { name: "Data Joins", route: "/data-joins" },
+    { name: "selections", route: "/selections" },
+    { name: "data joins", route: "/data-joins" },
+    { name: "scales", route: "/scales" },
   ];
 
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
           <ul className="flex items-center gap-3">
             {navLinks.map((link, index) => {
               return (
-                <li key={index} className="text-base font-Poppins">
+                <li key={index} className="text-base font-Poppins capitalize">
                   <Link to={link.route}>{link.name}</Link>
                 </li>
               );
